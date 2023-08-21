@@ -2,6 +2,8 @@ import { FC } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Box, Text, Divider } from "@chakra-ui/react";
 import { Carousel } from "react-responsive-carousel";
+import Image from "next/image";
+import StudyImage from "@/assets/jpg/study.jpg";
 
 const Tujuan: FC = () => {
   return (
@@ -9,7 +11,25 @@ const Tujuan: FC = () => {
       <Text color="brand.black" fontWeight="bold" fontSize="30" mb="4">
         Tujuan
       </Text>
-      <Box bg="brand.semiWhite" px="4" py="8" borderRadius={10}>
+      <Box
+        bg="brand.semiWhite"
+        px="4"
+        py="12"
+        borderRadius={10}
+        position="relative"
+      >
+        <Image
+          src={StudyImage}
+          alt="study"
+          fill
+          style={{
+            objectFit: "cover",
+            objectPosition: "center",
+            filter: "brightness(0.6)",
+            opacity: 0.5,
+            borderRadius: 10,
+          }}
+        />
         <Carousel
           autoPlay
           infiniteLoop

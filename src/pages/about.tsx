@@ -2,6 +2,7 @@ import { NextPage } from "next";
 import Head from "next/head";
 import MainLayout from "@/components/layout/MainLayout";
 import AboutHero from "@/components/shared/AboutHero";
+import Footer from "@/components/layout/Footer";
 
 const About: NextPage = () => {
   return (
@@ -17,6 +18,7 @@ const About: NextPage = () => {
       </Head>
       <MainLayout>
         <AboutHero />
+        <Footer />
       </MainLayout>
     </>
   );
