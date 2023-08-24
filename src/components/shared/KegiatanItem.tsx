@@ -18,6 +18,7 @@ const KegiatanItem: FC<Props> = ({ title, desc }) => {
       justifyContent="center"
       p="4"
       my="4"
+      borderRadius={10}
     >
       <BookIcon />
       <Text color="brand.black" fontWeight="bold" fontSize="24" mt="4" mb="4">

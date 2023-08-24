@@ -17,7 +17,7 @@ const kegiatanList = [
 
 const KegiatanList: FC = () => {
   return (
-    <Box w="100%" my="4">
+    <Box w="100%" my="8">
       {kegiatanList.map((kegiatan) => (
         <KegiatanItem
           key={kegiatan.id}
