@@ -5,9 +5,10 @@ import BookIcon from "../icons/BookIcon";
 interface Props {
   title: string;
   desc: string;
+  Icon: JSX.Element;
 }
 
-const KegiatanItem: FC<Props> = ({ title, desc }) => {
+const KegiatanItem: FC<Props> = ({ title, desc, Icon }) => {
   return (
     <Box
       bg="brand.semiWhite"
@@ -20,7 +21,7 @@ const KegiatanItem: FC<Props> = ({ title, desc }) => {
       my="4"
       borderRadius={10}
     >
-      <BookIcon />
+      {Icon}
       <Text color="brand.black" fontWeight="bold" fontSize="24" mt="4" mb="4">
         {title}
       </Text>
