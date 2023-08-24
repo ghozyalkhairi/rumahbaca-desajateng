@@ -14,7 +14,7 @@ const Tujuan: FC = () => {
       <Box
         bg="brand.semiWhite"
         px="4"
-        py="12"
+        py="16"
         borderRadius={10}
         position="relative"
       >
@@ -25,7 +25,7 @@ const Tujuan: FC = () => {
           style={{
             objectFit: "cover",
             objectPosition: "center",
-            filter: "brightness(0.6)",
+            filter: "brightness(0.8)",
             opacity: 0.5,
             borderRadius: 10,
           }}
