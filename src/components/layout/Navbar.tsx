@@ -2,6 +2,8 @@ import { FC } from "react";
 import { Box, Text, useDisclosure } from "@chakra-ui/react";
 import BurgerIcon from "../icons/BurgerIcon";
 import DrawerNav from "./DrawerNav";
+import Image from "next/image";
+import Logo from "@/assets/png/logo.png";
 
 const Navbar: FC = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -13,6 +15,7 @@ const Navbar: FC = () => {
         w="100%"
         display="flex"
         justifyContent="space-between"
+        alignItems="center"
         py="2"
       >
         <Box
@@ -23,12 +26,7 @@ const Navbar: FC = () => {
         >
           <BurgerIcon />
         </Box>
-        <Text color="brand.black" fontWeight="bold" fontSize="20">
-          Rumah
-          <Text as="span" color="brand.primary">
-            Baca
-          </Text>
-        </Text>
+        <Image src={Logo} alt="Study Image" width={50} height={50} />
       </Box>
     </>
   );

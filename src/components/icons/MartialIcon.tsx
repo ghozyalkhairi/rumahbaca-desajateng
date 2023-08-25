@@ -6,7 +6,7 @@ interface Props {
   color?: string;
 }
 
-const BookIcon: FC<Props> = ({
+const MartialIcon: FC<Props> = ({
   width = 60,
   height = 60,
   color = "#694AC1",
@@ -19,23 +19,30 @@ const BookIcon: FC<Props> = ({
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clipPath="url(#clip0_35_13)">
+      <g clipPath="url(#clip0_37_18)">
         <path
-          d="M47.5 10V50H17.5C16.1739 50 14.9021 49.4732 13.9645 48.5355C13.0268 47.5979 12.5 46.3261 12.5 45V15C12.5 13.6739 13.0268 12.4021 13.9645 11.4645C14.9021 10.5268 16.1739 10 17.5 10H47.5Z"
+          d="M42.5 10C42.5 10.663 42.7634 11.2989 43.2322 11.7678C43.7011 12.2366 44.337 12.5 45 12.5C45.663 12.5 46.2989 12.2366 46.7678 11.7678C47.2366 11.2989 47.5 10.663 47.5 10C47.5 9.33696 47.2366 8.70107 46.7678 8.23223C46.2989 7.76339 45.663 7.5 45 7.5C44.337 7.5 43.7011 7.76339 43.2322 8.23223C42.7634 8.70107 42.5 9.33696 42.5 10Z"
           stroke={color}
           strokeWidth="4"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
         <path
-          d="M47.5 40H17.5C16.1739 40 14.9021 40.5268 13.9645 41.4645C13.0268 42.4021 12.5 43.6739 12.5 45"
+          d="M7.5 22.5L18.75 25L26.25 31.25"
           stroke={color}
           strokeWidth="4"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
         <path
-          d="M22.5 20H37.5"
+          d="M32.5 52.5V32.5L40 18.75"
+          stroke={color}
+          strokeWidth="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M20 11.25L30 16.25L40 18.75L50 27.5L45 36.25"
           stroke={color}
           strokeWidth="4"
           strokeLinecap="round"
@@ -46,4 +53,4 @@ const BookIcon: FC<Props> = ({
   );
 };
 
-export default BookIcon;
+export default MartialIcon;

@@ -28,12 +28,12 @@ const Lokasi: FC = () => {
             bottom="0"
             left="0"
             bg="brand.primary"
-            opacity="0.4"
+            opacity="0.7"
             w="100%"
           >
-            <Text p="4" color="brand.white" fontSize="14">
-              Jl. Trans Kalimantan, Desa Jawa Tengah, Kec. Sungai Ambawang, Kab.
-              Kubu Raya, Kalimantan Barat
+            <Text p="4" color="brand.white" fontSize="14" textAlign="center">
+              Jl. Trans Kalimantan, Dusun Karya II RT 005, Desa Jawa Tengah,
+              Kec. Sungai Ambawang, Kab. Kubu Raya, Kalimantan Barat
             </Text>
           </Box>
         </Box>

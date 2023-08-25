@@ -8,7 +8,10 @@ import {
   DrawerCloseButton,
   Text,
   Divider,
+  Box,
 } from "@chakra-ui/react";
+import Image from "next/image";
+import Logo from "@/assets/png/logo.png";
 import { Link } from "@chakra-ui/next-js";
 
 interface DrawerNavProps {
@@ -23,17 +26,9 @@ const DrawerNav: FC<DrawerNavProps> = ({ isOpen, onClose }) => {
       <DrawerContent>
         <DrawerCloseButton />
         <DrawerHeader>
-          <Text
-            color="brand.black"
-            fontWeight="bold"
-            fontSize="20"
-            textAlign="center"
-          >
-            Rumah
-            <Text as="span" color="brand.primary">
-              Baca
-            </Text>
-          </Text>
+          <Box w="100%" display="flex" justifyContent="center">
+            <Image src={Logo} alt="Study Image" width={60} height={60} />
+          </Box>
         </DrawerHeader>
 
         <DrawerBody>
@@ -43,9 +38,15 @@ const DrawerNav: FC<DrawerNavProps> = ({ isOpen, onClose }) => {
             </Text>
             <Divider />
           </Link>
-          <Link href="/about" onClick={onClose}>
+          <Link href="/visimisi" onClick={onClose}>
             <Text color="brand.black" fontSize="17" my="2">
-              Tentang
+              Visi dan Misi
+            </Text>
+            <Divider />
+          </Link>
+          <Link href="/contact" onClick={onClose}>
+            <Text color="brand.black" fontSize="17" my="2">
+              Hubungi Kami
             </Text>
             <Divider />
           </Link>

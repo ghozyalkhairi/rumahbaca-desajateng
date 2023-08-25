@@ -1,13 +1,12 @@
 import { NextPage } from "next";
 import Head from "next/head";
 import MainLayout from "@/components/layout/MainLayout";
-import Hero from "@/components/shared/Hero";
-import Tujuan from "@/components/shared/Tujuan";
-import Lokasi from "@/components/shared/Lokasi";
+import AboutHero from "@/components/shared/AboutHero";
 import Footer from "@/components/layout/Footer";
-import Program from "@/components/shared/Program";
+import VisiMisiList from "@/components/shared/VisiMisiList";
+import Sejarah from "@/components/shared/Sejarah";
 
-const Home: NextPage = () => {
+const About: NextPage = () => {
   return (
     <>
       <Head>
@@ -20,14 +19,13 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
-        <Hero />
-        <Tujuan />
-        <Program />
-        <Lokasi />
+        <AboutHero />
+        <Sejarah />
+        <VisiMisiList />
         <Footer />
       </MainLayout>
     </>
   );
 };
 
-export default Home;
+export default About;

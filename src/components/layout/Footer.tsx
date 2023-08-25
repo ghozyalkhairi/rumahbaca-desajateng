@@ -11,10 +11,10 @@ const Footer: FC = () => {
         alignItems="center"
         p="4"
       >
-        <Text color="brand.primary" fontSize="16">
-          © 2023 Rumah Baca
+        <Text color="brand.primary" fontSize="14" textAlign="center">
+          © {new Date().getFullYear()} Rumah Baca Masyarakat Desa Jawa Tengah
         </Text>
-        <Text color="brand.primary" fontSize="16">
+        <Text color="brand.primary" fontSize="14" textAlign="center">
           All Rights Reserved
         </Text>
       </Box>

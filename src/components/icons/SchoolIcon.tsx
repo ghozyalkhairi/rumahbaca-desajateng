@@ -6,7 +6,7 @@ interface Props {
   color?: string;
 }
 
-const BookIcon: FC<Props> = ({
+const SchoolIcon: FC<Props> = ({
   width = 60,
   height = 60,
   color = "#694AC1",
@@ -19,23 +19,16 @@ const BookIcon: FC<Props> = ({
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clipPath="url(#clip0_35_13)">
+      <g clipPath="url(#clip0_35_2)">
         <path
-          d="M47.5 10V50H17.5C16.1739 50 14.9021 49.4732 13.9645 48.5355C13.0268 47.5979 12.5 46.3261 12.5 45V15C12.5 13.6739 13.0268 12.4021 13.9645 11.4645C14.9021 10.5268 16.1739 10 17.5 10H47.5Z"
+          d="M55 22.5L30 12.5L5 22.5L30 32.5L55 22.5ZM55 22.5V37.5"
           stroke={color}
           strokeWidth="4"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
         <path
-          d="M47.5 40H17.5C16.1739 40 14.9021 40.5268 13.9645 41.4645C13.0268 42.4021 12.5 43.6739 12.5 45"
-          stroke={color}
-          strokeWidth="4"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <path
-          d="M22.5 20H37.5"
+          d="M15 26.5V40C15 41.9891 16.5804 43.8968 19.3934 45.3033C22.2064 46.7098 26.0218 47.5 30 47.5C33.9782 47.5 37.7936 46.7098 40.6066 45.3033C43.4196 43.8968 45 41.9891 45 40V26.5"
           stroke={color}
           strokeWidth="4"
           strokeLinecap="round"
@@ -46,4 +39,4 @@ const BookIcon: FC<Props> = ({
   );
 };
 
-export default BookIcon;
+export default SchoolIcon;

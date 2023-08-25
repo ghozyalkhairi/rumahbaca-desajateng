@@ -1,11 +1,10 @@
 import { NextPage } from "next";
 import Head from "next/head";
 import MainLayout from "@/components/layout/MainLayout";
-import AboutHero from "@/components/shared/AboutHero";
+import Profile from "@/components/shared/Profile";
 import Footer from "@/components/layout/Footer";
-import KegiatanList from "@/components/shared/KegiatanList";
 
-const About: NextPage = () => {
+const Contact: NextPage = () => {
   return (
     <>
       <Head>
@@ -18,12 +17,11 @@ const About: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
-        <AboutHero />
-        <KegiatanList />
+        <Profile />
         <Footer />
       </MainLayout>
     </>
   );
 };
 
-export default About;
+export default Contact;

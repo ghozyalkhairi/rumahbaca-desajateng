@@ -6,7 +6,7 @@ interface Props {
   color?: string;
 }
 
-const MathIcon: FC<Props> = ({
+const DeliveryIcon: FC<Props> = ({
   width = 60,
   height = 60,
   color = "#694AC1",
@@ -19,65 +19,37 @@ const MathIcon: FC<Props> = ({
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clipPath="url(#clip0_5_71)">
+      <g clipPath="url(#clip0_35_6)">
         <path
-          d="M7.5 30H52.5"
+          d="M30 7.5L50 18.75V41.25L30 52.5L10 41.25V18.75L30 7.5Z"
           stroke={color}
           strokeWidth="4"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
         <path
-          d="M30 7.5V52.5"
+          d="M30 30L50 18.75"
           stroke={color}
           strokeWidth="4"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
         <path
-          d="M41.25 11.25L48.75 18.75"
+          d="M20.5 24.5L39.5 13"
           stroke={color}
           strokeWidth="4"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
         <path
-          d="M48.75 11.25L41.25 18.75"
+          d="M30 30V52.5"
           stroke={color}
           strokeWidth="4"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
         <path
-          d="M15 10V20"
-          stroke={color}
-          strokeWidth="4"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <path
-          d="M10 15H20"
-          stroke={color}
-          strokeWidth="4"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <path
-          d="M45 40H45.025"
-          stroke={color}
-          strokeWidth="4"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <path
-          d="M45 50H45.025"
-          stroke={color}
-          strokeWidth="4"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <path
-          d="M10 45H20"
+          d="M30 30L10 18.75"
           stroke={color}
           strokeWidth="4"
           strokeLinecap="round"
@@ -88,4 +60,4 @@ const MathIcon: FC<Props> = ({
   );
 };
 
-export default MathIcon;
+export default DeliveryIcon;

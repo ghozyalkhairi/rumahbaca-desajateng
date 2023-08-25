@@ -3,7 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Box, Text, Divider } from "@chakra-ui/react";
 import { Carousel } from "react-responsive-carousel";
 import Image from "next/image";
-import StudyImage from "@/assets/jpg/study.jpg";
+import RBaca3 from "@/assets/jpg/rbaca3.jpeg";
 
 const Tujuan: FC = () => {
   return (
@@ -19,8 +19,8 @@ const Tujuan: FC = () => {
         position="relative"
       >
         <Image
-          src={StudyImage}
-          alt="study"
+          src={RBaca3}
+          alt="RBaca3"
           fill
           style={{
             objectFit: "cover",
@@ -37,7 +37,7 @@ const Tujuan: FC = () => {
           showThumbs={false}
           showIndicators={false}
           showArrows={true}
-          interval={3000}
+          interval={4000}
         >
           <Text color="brand.black" fontSize="16" fontStyle="italic" as="p">
             Menjadi sarana pembelajaran bagi masyarakat untuk menimba ilmu dan
