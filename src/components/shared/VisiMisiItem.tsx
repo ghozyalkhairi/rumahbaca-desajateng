@@ -35,7 +35,7 @@ const VisiMisiItem: FC<Props> = ({ title, desc, Icon }) => {
       ) : (
         <ol>
           {desc.map((desc, index) => (
-            <li>
+            <li key={desc}>
               <Text
                 key={desc}
                 color="brand.black"
