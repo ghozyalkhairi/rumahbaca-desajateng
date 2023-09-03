@@ -4,7 +4,6 @@ import MainLayout from "@/components/layout/MainLayout";
 import Hero from "@/components/shared/Hero";
 import Tujuan from "@/components/shared/Tujuan";
 import Lokasi from "@/components/shared/Lokasi";
-import Footer from "@/components/layout/Footer";
 import Program from "@/components/shared/Program";
 
 const Home: NextPage = () => {
@@ -24,7 +23,6 @@ const Home: NextPage = () => {
         <Tujuan />
         <Program />
         <Lokasi />
-        <Footer />
       </MainLayout>
     </>
   );

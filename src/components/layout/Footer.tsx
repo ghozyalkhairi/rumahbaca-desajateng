@@ -15,7 +15,22 @@ const Footer: FC = () => {
           © {new Date().getFullYear()} Rumah Baca Masyarakat Desa Jawa Tengah
         </Text>
         <Text color="brand.primary" fontSize="14" textAlign="center">
-          All Rights Reserved
+          Website ini dibuat dan dikelola oleh:
+        </Text>
+        <Text
+          color="brand.primary"
+          fontSize="14"
+          fontWeight="bold"
+          textDecoration="underline"
+          textAlign="center"
+        >
+          <a
+            href="https://kelompok34-kku.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Kelompok 34 KKU UM Pontianak 2023
+          </a>
         </Text>
       </Box>
     </Box>

@@ -2,7 +2,6 @@ import { NextPage } from "next";
 import Head from "next/head";
 import MainLayout from "@/components/layout/MainLayout";
 import AboutHero from "@/components/shared/AboutHero";
-import Footer from "@/components/layout/Footer";
 import VisiMisiList from "@/components/shared/VisiMisiList";
 import Sejarah from "@/components/shared/Sejarah";
 
@@ -22,7 +21,6 @@ const About: NextPage = () => {
         <AboutHero />
         <Sejarah />
         <VisiMisiList />
-        <Footer />
       </MainLayout>
     </>
   );

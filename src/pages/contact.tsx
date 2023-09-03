@@ -2,7 +2,6 @@ import { NextPage } from "next";
 import Head from "next/head";
 import MainLayout from "@/components/layout/MainLayout";
 import Profile from "@/components/shared/Profile";
-import Footer from "@/components/layout/Footer";
 
 const Contact: NextPage = () => {
   return (
@@ -18,7 +17,6 @@ const Contact: NextPage = () => {
       </Head>
       <MainLayout>
         <Profile />
-        <Footer />
       </MainLayout>
     </>
   );
